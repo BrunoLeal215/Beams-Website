@@ -1,0 +1,27 @@
+RewriteEngine ON
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^home index.php [NC,L]
+RewriteRule ^aboutus AboutUs.php [NC,L]
+RewriteRule ^testimonials Testimonials.php [NC,L]
+RewriteRule ^products-beams Beams.php [NC,L]
+RewriteRule ^products-mobile Mobile.php [NC,L]
+RewriteRule ^products-crm Crm.php [NC,L]
+RewriteRule ^support Support.php [NC,L]
+RewriteRule ^training Training.php [NC,L]
+RewriteRule ^KB http://www.beamsbuild.com.au/kb [NC,L]
+RewriteRule ^contact Contact.php [NC,L]
+RewriteRule ^whats-new Whats-new.php [NC,L]
+
+
+
+
+
+
+
+
+
+
+
+
