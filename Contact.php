@@ -500,8 +500,8 @@
                             $fromName = $_POST["name"];
 
                             $host ='smtp.gmail.com';
-                            $username ='bruno.leal.seb@gmail.com';
-                            $password = 'Fearless2015';
+                            $username ='xxx@gmail.com';
+                            $password = 'xxx';
                             $port = 587;
                             $secure = 'tls';
 
